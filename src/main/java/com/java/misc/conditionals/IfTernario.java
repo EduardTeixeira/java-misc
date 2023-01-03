@@ -13,6 +13,10 @@ public class IfTernario {
 		System.out.println(classe.getName() == null || classe.getName().equals("null") ? "a" : "b");
 
 		System.out.println(classe.getOutraClasse() == null || classe.getOutraClasse().getId() == null ? 1 : 2);
+		
+		Boolean teste = false;
+		int r = teste ? 1 : 0;
+		System.out.println("Resultado R --> " + r);
 
 	}
 
