@@ -1,6 +1,8 @@
 package com.java.misc.math;
 
-public class BigDecimal {
+import java.math.BigDecimal;
+
+public class BigDecimalTest {
 
 	public static void main(String[] args) {
 
@@ -34,6 +36,16 @@ public class BigDecimal {
 		}
 
 		System.out.println(numero != null ? 0 : 1);
+
+
+
+		BigDecimal n1 = new BigDecimal(110.50);
+		BigDecimal n2 = new BigDecimal(11.33);
+
+		n1 = n1.add(n2);
+		n1 = n1.add(n2);
+
+		System.out.println("Soma...: " + n1);
 
 	}
 
