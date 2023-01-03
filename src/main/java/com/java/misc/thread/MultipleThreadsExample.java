@@ -1,0 +1,2 @@
+package com.java.misc.thread;public class MultipleThreadsExample {
+}
